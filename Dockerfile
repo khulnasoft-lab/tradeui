@@ -21,7 +21,7 @@ COPY . /app
 RUN yarn build
 
 # Final stage: Serve the built UI using Nginx
-FROM nginx:1.25.4-alpine
+FROM nginx:1.26.0-alpine
 
 # Copy the built UI from the ui-builder stage
 COPY --from=ui-builder /app/dist /usr/share/nginx/html
