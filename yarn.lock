@@ -1517,7 +1517,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/core@npm:10.9.0, @vueuse/core@npm:^10.7.2, @vueuse/core@npm:^10.9.0":
+"@vueuse/core@npm:10.10.1, @vueuse/core@npm:^10.10.1":
+  version: 10.10.1
+  resolution: "@vueuse/core@npm:10.10.1"
+  dependencies:
+    "@types/web-bluetooth": "npm:^0.0.20"
+    "@vueuse/metadata": "npm:10.10.1"
+    "@vueuse/shared": "npm:10.10.1"
+    vue-demi: "npm:>=0.14.8"
+  checksum: 10/bd44e7e36959b686f0b032f16c5ec7e835e48dc3757b563d0fa4f43fec9c031b31953c34b253f9bf221cca9452f50d2fb1a983545de9ffbbfb8862d280ba0401
+  languageName: node
+  linkType: hard
+
+"@vueuse/core@npm:^10.7.2":
   version: 10.9.0
   resolution: "@vueuse/core@npm:10.9.0"
   dependencies:
@@ -1529,13 +1541,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vueuse/integrations@npm:^10.9.0":
-  version: 10.9.0
-  resolution: "@vueuse/integrations@npm:10.9.0"
+"@vueuse/integrations@npm:^10.10.1":
+  version: 10.10.1
+  resolution: "@vueuse/integrations@npm:10.10.1"
   dependencies:
-    "@vueuse/core": "npm:10.9.0"
-    "@vueuse/shared": "npm:10.9.0"
-    vue-demi: "npm:>=0.14.7"
+    "@vueuse/core": "npm:10.10.1"
+    "@vueuse/shared": "npm:10.10.1"
+    vue-demi: "npm:>=0.14.8"
   peerDependencies:
     async-validator: "*"
     axios: "*"
@@ -1574,7 +1586,14 @@ __metadata:
       optional: true
     universal-cookie:
       optional: true
-  checksum: 10/b9a258b1df6dfa16a9755ec1c0b03e440b00e8ffc72f0d0ecec1c5fb198346ded682257456da629c3cadde9ff7c73eb5f9cb81c711c24d40adc532b9c6a8936d
+  checksum: 10/aaaa0453762fc9dbe77a9dcdd0fa3d580503457174b5ed6229a67c8d79a541f21515edc7076749515890eeda272f2879d59f55488a6e7be3854b9a057c37c5c5
+  languageName: node
+  linkType: hard
+
+"@vueuse/metadata@npm:10.10.1":
+  version: 10.10.1
+  resolution: "@vueuse/metadata@npm:10.10.1"
+  checksum: 10/89f9fa7383d9bdb268ca7399f94b3cbb022ec2e6f87eb34ada5526c5356e3877f2471b1f92bb907a6c30217ebb2c4f08605cb02131f313472410479bb1273977
   languageName: node
   linkType: hard
 
@@ -1582,6 +1601,15 @@ __metadata:
   version: 10.9.0
   resolution: "@vueuse/metadata@npm:10.9.0"
   checksum: 10/f32c3a4c1a572a6873223fe973c24b6eaf8ed398be383ebb9bc95ab837a9ee1e23126afa966f3fdea68767883e6b12528fe997f0c393f9ce017d345c72fc715c
+  languageName: node
+  linkType: hard
+
+"@vueuse/shared@npm:10.10.1":
+  version: 10.10.1
+  resolution: "@vueuse/shared@npm:10.10.1"
+  dependencies:
+    vue-demi: "npm:>=0.14.8"
+  checksum: 10/c1f37e4bb153a623c7744601487710d13b420d1143f22287ac04ad8cef6c4577b10b64bf69678a532033350ebe02ee01fc4584b59cf02b5f34f3359d0ccd1887
   languageName: node
   linkType: hard
 
@@ -5545,8 +5573,8 @@ __metadata:
     "@vue/runtime-dom": "npm:^3.4.21"
     "@vue/test-utils": "npm:^2.4.5"
     "@vuepic/vue-datepicker": "npm:^8.3.2"
-    "@vueuse/core": "npm:^10.9.0"
-    "@vueuse/integrations": "npm:^10.9.0"
+    "@vueuse/core": "npm:^10.10.1"
+    "@vueuse/integrations": "npm:^10.10.1"
     axios: "npm:^1.6.8"
     bootstrap: "npm:^5.3.3"
     bootstrap-vue-next: "npm:^0.16.6"
@@ -6021,6 +6049,22 @@ __metadata:
     vue-demi-fix: bin/vue-demi-fix.js
     vue-demi-switch: bin/vue-demi-switch.js
   checksum: 10/04884677b8790320bcd3cbbf8dae1c4da9f4ab304659bf18d69b11255f7d16825d2135d2d0e565b1a1f1b7f601100eb26760254129c6bacec2c7e72ab0f61d52
+  languageName: node
+  linkType: hard
+
+"vue-demi@npm:>=0.14.8":
+  version: 0.14.8
+  resolution: "vue-demi@npm:0.14.8"
+  peerDependencies:
+    "@vue/composition-api": ^1.0.0-rc.1
+    vue: ^3.0.0-0 || ^2.6.0
+  peerDependenciesMeta:
+    "@vue/composition-api":
+      optional: true
+  bin:
+    vue-demi-fix: bin/vue-demi-fix.js
+    vue-demi-switch: bin/vue-demi-switch.js
+  checksum: 10/88af227aa3a83607584c4f614efee9ac2fb8ea124db85f2f88bab62382cdfbd6611d9d2489ca757d3518afc7df7ea69257bf182705d20e473404e64959e9f838
   languageName: node
   linkType: hard
 
