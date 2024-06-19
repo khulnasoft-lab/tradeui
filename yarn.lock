@@ -5103,16 +5103,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:^1.72.0":
-  version: 1.74.1
-  resolution: "sass@npm:1.74.1"
+"sass@npm:^1.77.6":
+  version: 1.77.6
+  resolution: "sass@npm:1.77.6"
   dependencies:
     chokidar: "npm:>=3.0.0 <4.0.0"
     immutable: "npm:^4.0.0"
     source-map-js: "npm:>=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: 10/fe49406d1ed37541cf69b842b76109a9ede6efe565b2aa0fa3f0f041d310673a713404677c1f82747089dfea4f5a873a761b8d3f94f4da3883ca402768cd58aa
+  checksum: 10/695f9864e4a32a68eaf69c4675eccaf7feef25b5656dff72f896901d37580bdfc1fd84dae81e176dc4f6b40536b89cb8f7d7e00a33e919caad8a547cbce098f3
   languageName: node
   linkType: hard
 
@@ -5565,7 +5565,7 @@ __metadata:
     pinia-plugin-persistedstate: "npm:^3.2.1"
     portal-vue: "npm:^3.0.0"
     prettier: "npm:^3.2.5"
-    sass: "npm:^1.72.0"
+    sass: "npm:^1.77.6"
     sortablejs: "npm:^1.15.2"
     typescript: "npm:~5.4.3"
     unplugin-auto-import: "npm:^0.17.5"
