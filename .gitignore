@@ -3,7 +3,6 @@ node_modules
 package-lock.json
 /dist
 
-cypress/screenshots/*
 
 # local env files
 .env.local
@@ -33,7 +32,6 @@ yarn-error.log*
 *.sw?
 
 
-components.d.ts
 /test-results/
 /playwright-report/
 /blob-report/
