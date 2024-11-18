@@ -105,15 +105,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cypress/vite-dev-server@npm:^5.0.7":
-  version: 5.0.7
-  resolution: "@cypress/vite-dev-server@npm:5.0.7"
+"@cypress/vite-dev-server@npm:^5.1.1":
+  version: 5.1.1
+  resolution: "@cypress/vite-dev-server@npm:5.1.1"
   dependencies:
     debug: "npm:^4.3.4"
     find-up: "npm:6.3.0"
     node-html-parser: "npm:5.3.3"
     semver: "npm:^7.5.3"
-  checksum: 10/185f58186d31aeceb30f6490824224599ca22ee10f49e9a69cf74491b20d85d6603a41ed52fc5ab12344967a81ff0b8a9289d07f7bf6c9892dce1074fb9afd81
+  checksum: 10/c5b95f035f414ff4d146fb368164eace48ee87292687bcaeb31f61fd4d37657292cf60e35645c9a62baf922cd3eba72228b76fa7cdf7e5187792e04c5995f65a
   languageName: node
   linkType: hard
 
@@ -5528,7 +5528,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "tradeui@workspace:."
   dependencies:
-    "@cypress/vite-dev-server": "npm:^5.0.7"
+    "@cypress/vite-dev-server": "npm:^5.1.1"
     "@cypress/vue": "npm:^6.0.0"
     "@iconify-json/mdi": "npm:^1.1.66"
     "@noction/vue-draggable-grid": "npm:1.9.16"
